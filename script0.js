@@ -1,0 +1,20 @@
+
+
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+for( i=0; i<names.length ; i++){
+  speak (names[i]);
+};
+
+
+
+function speak (name){
+    var firstLetter = names[i].charAt(0).toLowerCase();
+
+    if (firstLetter === 'j') {
+        byeSpeaker.speak(names[i]);
+      } else {
+        helloSpeaker.speak(names[i]);
+      };
+ };
+    
+    
